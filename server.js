@@ -37,7 +37,7 @@ app.use(cookieParser()); // To parse the incoming cookies
 app.use(
   cors({
     credentials: true,
-    origin: "https://restaurant-online-frontend.vercel.app",
+    origin: "https://restaurant-online-frontend-production.up.railway.app",
   })
 );
 
