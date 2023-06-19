@@ -75,7 +75,7 @@ const deleteItem_post = async (req, res) => {
   const item = await Item.findOneAndDelete({ _id: id });
 
   if (!item) {
-    return res.status(400).json({ error: "No such workout" });
+    return res.status(400).json({ error: "No such item" });
   }
 
   res.status(200).json(item);

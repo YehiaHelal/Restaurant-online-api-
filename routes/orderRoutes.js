@@ -4,8 +4,6 @@ const authController = require("./../controllers/authController");
 
 const router = express.Router();
 
-// const router = express.Router();
-
 // GET all orders of a user
 router.post(
   "/getuserorders",
